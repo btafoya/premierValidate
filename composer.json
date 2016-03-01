@@ -1,0 +1,22 @@
+{
+    "name": "btafoya/premierValidate",
+	"type": "library",
+	"license": "LGP-2.1",
+    "description": "Premier Real-time Email Validation Service.",
+	"homepage": "https://github.com/btafoya/premierValidate",
+	"authors": [
+		{
+			"name": "Brian Tafoya",
+			"email": "btafoya@briantafoya.com",
+			"homepage": "https://www.briantafoya.com",
+			"role": "Developer"
+		}
+	],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-curl": "*"
+    },
+	"autoload": {
+        "classmap": ["premierValidate.php"]
+    }
+}
